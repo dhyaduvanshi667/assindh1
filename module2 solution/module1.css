@@ -22,39 +22,33 @@ h1 {
 
 
 .box{
-  border: 1px solid black;
+  border:1px solid black;
   width: 100%;
   overflow: auto;
-  height: 300px;
-  
-  color: black
-  font-size: 5px;
-  
-  
+  height:300px;
+  color: black;
+  font-size:5px;
   background-color: rgba(0,0,0,0.3);
-  
   
 }
 
 
 .content-name{
-  
   text-align: center;
   border: 1px solid black;
   width: 100px;
-  height: 50px;
+  height: 40px;
   padding: 5px 20px 5px 20px;
   float: right;
-  
   margin-top: 0px;
-  font-size:125%;
+  font-size: 125%;
   position: relative;
-  
 }
+
 
 ul {
   clear: right;
-  width: 90%;
+  width: 90%%;
 }
 
 .name1{
@@ -73,7 +67,7 @@ ul {
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .com-lg-4 {
-    padding: 10px;
+	  padding: 10px;
   	float: left;
     width: 33.33%;
   }
@@ -81,7 +75,7 @@ ul {
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .com-md-6,.com-md-12 {
-    padding: 10px;
+	  padding: 10px;
     float: left;
   }
   .com-md-6 {
@@ -92,6 +86,7 @@ ul {
     width: 100%;
     position: relative;
   }
+	
   .name3{
     margin-right: 0px;
     width: 100px;
@@ -101,13 +96,13 @@ ul {
 
 @media (min-width: 0px) and (max-width: 767px) {
   .com-sm-12 {
-    padding: 10px;
+	padding: 10px;
   	float: left;
     width: 100%;
   }
   .content-name{
-    padding: 15px;
-    float: right;
+    padding:10px;
+    float: left;
     margin-right: 0px;
   }
 }
